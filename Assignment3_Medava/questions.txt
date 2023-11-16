@@ -1,0 +1,13 @@
+// Randy Hucker
+
+1. I am extremely confused as to why we never flushed out the Transporter 'Ship' method!
+
+2. I would like to see what would happen when we try to call getSerialNumber from inside the hospital. 
+	Is there a way to check to see if the Shippable Object is also a Jarvik? If so, could we have done that instead of doing the Shippable interface?
+		I am going to assume there is, but I was supposed to write these questions and not look up the answers.
+
+3. Is it good practice to abstract all methods that are the same for concurrency? 
+
+4. Could we have made the interface's getSchedule an abstract which would've made both the Medicine and Jarvik classes 
+	need to make the overload, but could the necessity to make an overload for medicine class
+	fall THROUGH the medicine class (ignore it) which would make the subclasses overload it and then we could've skipped defining that method in Medicine?
